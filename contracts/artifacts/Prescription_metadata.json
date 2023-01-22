@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_quantity",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_dosing",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_strength",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_duration",
+						"type": "uint8"
+					}
+				],
+				"name": "addMedicine",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "medicines",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "ID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "quantity",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "dosing",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "strength",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "duration",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Prescription.sol": "Prescription"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Medicine.sol": {
+			"keccak256": "0x43c09ceaa9f1f6014f41e177987e6783d2fd0753a5d58f2f2a34083b93fd6016",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c798904b2983d6b252f974c037167c9f3070df866175d0cd7487fb794d5b5adc",
+				"dweb:/ipfs/QmVoe3wXTeCZP39Wf9vR2o344eRumVRqdjLxRqvPHoTDEg"
+			]
+		},
+		"contracts/Prescription.sol": {
+			"keccak256": "0xdf9cec5b93a5be7c7009aec54168df5e5ac873cdeec92de5c56527e364473922",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef426652269a82c983027fbd28b2221f8185030fb9640274496250f6786b6498",
+				"dweb:/ipfs/QmZ9TaC8cdsqwzmM2U8SutzDaAGqGfgMEcRf3Amc2wsxZt"
+			]
+		}
+	},
+	"version": 1
+}
